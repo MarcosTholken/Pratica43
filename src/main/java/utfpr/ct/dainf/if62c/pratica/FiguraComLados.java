@@ -9,6 +9,7 @@ package utfpr.ct.dainf.if62c.pratica;
  *
  * @author Marcos
  */
-public class FiguraComLados {
-    
+public interface FiguraComLados {
+    double getLadoMaior();
+    double getLadoMenor();
 }

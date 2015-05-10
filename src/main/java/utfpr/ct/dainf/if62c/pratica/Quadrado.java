@@ -9,6 +9,8 @@ package utfpr.ct.dainf.if62c.pratica;
  *
  * @author Marcos
  */
-public class Quadrado {
-    
+public class Quadrado extends Retangulo {
+    public Quadrado(double a){
+        super(a,a);
+    }
 }
